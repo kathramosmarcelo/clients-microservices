@@ -1,5 +1,7 @@
 package com.banca.clientsmicroservices.Model;
 
+import java.util.List;
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
@@ -26,6 +28,8 @@ public class Clients {
     @Field
 	public String type_product;   
     @Field
-	public String name_product;  
-
+	public String name_product;
+    
+    @Field
+    public List<BankAccount> bankaccount;
 }
