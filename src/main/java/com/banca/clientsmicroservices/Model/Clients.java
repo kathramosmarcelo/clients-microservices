@@ -28,7 +28,7 @@ public class Clients {
     @Field
 	public String type_product;   
     @Field
-	public String name_product;
+	public String name_type;
     
     @Field
     public List<BankAccount> bankaccount;
