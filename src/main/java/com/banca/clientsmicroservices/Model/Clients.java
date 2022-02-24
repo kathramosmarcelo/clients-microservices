@@ -25,5 +25,7 @@ public class Clients {
 	public String dni_Client;
     @Field
 	public String type_product;   
+    @Field
+	public String name_product;  
 
 }
