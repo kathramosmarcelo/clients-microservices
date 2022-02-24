@@ -22,5 +22,8 @@ public class Clients {
 	@Field
 	public String typeClient;
 	@Field
-	public String idAccount;
+	public String dni_Client;
+    @Field
+	public String type_product;   
+
 }
