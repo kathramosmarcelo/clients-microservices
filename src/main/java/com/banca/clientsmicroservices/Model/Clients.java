@@ -20,16 +20,12 @@ public class Clients {
 	@Field
 	public String lastname;
 	@Field
+	public String dni_Client;
+	@Field
 	public String email;
 	@Field
 	public String typeClient;
-	@Field
-	public String dni_Client;
     @Field
-	public String type_product;   
-    @Field
-	public String name_type;
-    
-    @Field
-    public List<BankAccount> bankaccount;
+	public String profile;
+
 }
