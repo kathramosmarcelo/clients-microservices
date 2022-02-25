@@ -13,6 +13,7 @@ import lombok.Setter;
 @Setter
 @Document(collection = "clients")
 public class Clients {
+	
 	@Id
     public String id;   
 	@Field
